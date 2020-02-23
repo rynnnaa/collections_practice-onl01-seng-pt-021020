@@ -49,8 +49,9 @@ def add_s(string_arr)
     if word[1]
       word
     else
-    word.split(",")
-     word << "s"
+      word.split(",")
+      word << "s"
+    end
   end
 end
     
