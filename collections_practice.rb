@@ -36,4 +36,7 @@ def find_a(arr)
     word.start_with?("a")
   end
 end
-    
+
+def sum_array(int_arr)
+  int_arr.each
+  
