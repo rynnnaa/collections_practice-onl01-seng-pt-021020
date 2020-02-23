@@ -45,12 +45,12 @@ end
 
 def add_s(string_arr)
   new_arr = []
-  string_arr.each do |word|
+  string_arr.collect do |word|
     word.split(",")
-    if word == word[1]
+    if word[1] == word
       word
     else
-      word << "s"
+      word + "s"
     end
   end
 end
