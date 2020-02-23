@@ -48,7 +48,7 @@ def add_s(string_arr)
   string_arr.each do |word|
     word.split(",")
     if word == word[1]
-      word[1]
+      word
     else
       word << "s"
     end
