@@ -27,7 +27,7 @@ def kesha_maker(kesha_array)
   new_arr = []
   kesha_array.each do |letter|
     letter.split(",")
-    letter[2] = $
+    letter[2] = "$"
   end
   new_arr
 end
