@@ -47,7 +47,7 @@ def add_s(string_arr)
   new_arr = []
   string_arr.each do |word|
     word.split(",")
-    new_arr << word.pus("s")
+    new_arr << word.push("s")
   end
 end
     
