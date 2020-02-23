@@ -45,5 +45,7 @@ end
 
 def add_s(string)
   string.each do |word|
+    word.
+    
     
   
