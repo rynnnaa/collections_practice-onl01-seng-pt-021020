@@ -44,9 +44,10 @@ def sum_array(int_arr)
 end
 
 def add_s(string)
+  new_arr = []
   string.each do |word|
     word.split(",")
-    word.push("s")
+    new_arr << word.push("s")
   end
 end
     
