@@ -29,7 +29,6 @@ def kesha_maker(kesha_array)
     letter.split(",")
     letter[2] = "$"
   end
-  new_arr
 end
 
 def find_a(arr)
