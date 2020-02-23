@@ -42,4 +42,8 @@ def sum_array(int_arr)
     num1 + num2
   end
 end
+
+def add_s(string)
+  string.each do |word|
+    
   
